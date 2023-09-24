@@ -1,0 +1,7 @@
+{
+  "Android_Emulator": {
+    "capabilities": {
+      "deviceName": "Pixel_3a_API_34"
+    }
+  }
+}
