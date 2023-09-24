@@ -1,7 +1,6 @@
 package models;
 
 import utilities.Environment;
-import utilities.Fake;
 
 public class User {
     private String firstName;

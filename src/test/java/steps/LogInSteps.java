@@ -6,6 +6,7 @@ import org.testng.Assert;
 import screens.LoginScreen;
 
 public class LogInSteps {
+
     private LogInSteps() {}
 
     public static void logIn(User user) {

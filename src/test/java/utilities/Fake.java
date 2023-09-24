@@ -15,9 +15,7 @@ public class Fake {
 
     public static String notValidLoginDataRegex() { return FAKER.regexify("^[^A-Za-z.,/'_ -]+$"); }
 
-    public static String generateNumber(int size) {
-        return String.valueOf(FAKER.number().digits(size));
-    }
+    public static String generateNumber(int size) { return String.valueOf(FAKER.number().digits(size)); }
 
     public static String generateLetters(int size) {
         return FAKER.lorem().characters(size, false, false);

@@ -20,7 +20,7 @@ public abstract class BaseScreen {
         return Application.getDriver().findElement(By.xpath(screenLabelXpath)).isDisplayed();
     }
 
-    public void waitForProgressBarDissapear() {
+    public void waitForProgressBarDisappear() {
         Wait.waitForElementToBeInvisible(Application.getDriver().findElement(By.className(progressBarClassName)));
     }
 }

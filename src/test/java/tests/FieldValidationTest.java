@@ -14,7 +14,6 @@ public class FieldValidationTest extends BaseTest {
     private final String maxLengthLogin = Fake.generateLetters(65);
     private final String maxLengthPassword = Fake.generateNumber(65);
 
-
     @Test
     @Issue("link")
     @Ignore
@@ -60,5 +59,4 @@ public class FieldValidationTest extends BaseTest {
         Assert.assertEquals(loginScreen.getEnteredPassword().length(), 50);
         Assert.assertEquals(loginScreen.getErrorMessage(), ErrorMessage.MAX_LENGTH_PASSWORD);
     }
-
 }

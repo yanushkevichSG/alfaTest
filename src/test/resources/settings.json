@@ -1,5 +1,4 @@
 {
-  "platformName": "android",
   "remoteConnectionUrl": "http://localhost:4723",
   "driverSettings": {
     "android": {

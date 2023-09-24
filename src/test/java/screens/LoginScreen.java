@@ -23,10 +23,6 @@ public class LoginScreen extends BaseScreen {
         loginInput.sendKeys(login);
     }
 
-    public String getEnteredLogin() {
-        return loginInput.getAttribute("text");
-    }
-
     @Step("Fill password with password : {0}")
     public void fillPassword(String password) {
         passwordInput.clear();

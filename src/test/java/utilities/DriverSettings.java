@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 public class DriverSettings {
     private static final File DRIVER_SETTINGS_FILE;
     private static final ObjectMapper mapper = new ObjectMapper();
-    private static JsonNode jsonSettingsNode = null;
+    private static JsonNode jsonSettingsNode;
     private static final String APPLICATION_PATH_KEY = "applicationPath";
     private static final String APP_CAPABILITY_KEY = "app";
     private static final String DEVICE_KEY_KEY = "deviceKey";

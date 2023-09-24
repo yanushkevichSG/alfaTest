@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Environment {
     private static final File ENVIRONMENT_SETTINGS_FILE;
     private static final ObjectMapper mapper = new ObjectMapper();
-    private static JsonNode jsonNode = null;
+    private static JsonNode jsonNode;
 
     static {
         String environment = System.getProperty("environment", "qa");
