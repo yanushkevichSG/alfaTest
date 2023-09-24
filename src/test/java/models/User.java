@@ -27,7 +27,6 @@ public class User {
         return String.format("%s %s", firstName, lastName);
     }
 
-
     public static User defaultUser() {
         return builder()
                 .withCredentials(new Credentials(Environment.login(), Environment.password()))

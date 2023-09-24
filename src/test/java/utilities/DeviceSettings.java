@@ -11,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DeviceSettings {
-
     private static final File DEVICE_SETTINGS_FILE;
     private static final ObjectMapper mapper = new ObjectMapper();
     private static JsonNode jsonDeviceNode;
