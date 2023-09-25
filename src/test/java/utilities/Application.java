@@ -9,7 +9,9 @@ import java.util.concurrent.TimeUnit;
 public class Application {
     private static AppiumDriver appiumDriver;
 
-    public Application() { }
+    public Application() {
+        createDriver();
+    }
 
     private static void setImplicitlyWaitToDriver(Duration duration) {
         getDriver().manage().timeouts().implicitlyWait(duration.getSeconds(), TimeUnit.SECONDS);
